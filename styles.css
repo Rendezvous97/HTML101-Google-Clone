@@ -1,0 +1,45 @@
+
+.main {
+    margin-top: 200px;
+}
+
+.google-img {
+    width: 300px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.google-input {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    background: #dfe1e5;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 30px;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    font-size: 14px;
+
+}
+
+.btn-wrapper {
+    display:flex;
+    justify-content: center;
+}
