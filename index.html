@@ -8,9 +8,11 @@
         <title>Google Clone</title>
     </head>
     <body>
+        <!-- wrapping the entire contents inside the main div to use flexbox for the buttons (children div) -->
         <div class="main">
             <img class="google-img" src="google.png">
             <input class="google-input" type="text">
+            <!-- Two buttons cannot be side by side just like that because display:block will not work, hence flexbox is used -->
             <div class="btn-wrapper">
                 <button class="btn">Google Search</button>
                 <button class="btn">I'm Feeling Lucky</button>

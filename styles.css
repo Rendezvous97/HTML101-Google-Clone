@@ -3,6 +3,8 @@
     margin-top: 200px;
 }
 
+/* Centering done using the margin technique: display:block, 
+width set, margin left and right set to auto */
 .google-img {
     width: 300px;
     display:block;
@@ -11,6 +13,9 @@
     margin-bottom: 20px;
 }
 
+
+/* Centering done using the margin technique: display:block, 
+width set, margin left and right set to auto */
 .google-input {
     width: 400px;
     display: block;
@@ -39,6 +44,10 @@
 
 }
 
+
+/* Centering done using the flexbox technique by wrapping the 
+div with a main div (container) and flexing the display 
+then justify elements to center */
 .btn-wrapper {
     display:flex;
     justify-content: center;
